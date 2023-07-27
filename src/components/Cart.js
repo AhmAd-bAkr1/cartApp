@@ -1,8 +1,6 @@
 import Table from "react-bootstrap/Table";
 import { Container, Image, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import Card from "react-bootstrap/Card";
-// import { removeProduct } from "../rtk/slices/cart-slice";
 import { useDispatch, useSelector } from "react-redux";
 import { clear, removeProduct } from "../rtk/slices/cart-slice";
 
